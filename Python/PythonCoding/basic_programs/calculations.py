@@ -1,0 +1,12 @@
+a = int(input('enter a number :'))
+b = int(input('enter another number :'))
+print("sum : ",a + b)
+print("diff : ",a - b)
+print("prod : ",a * b)
+print("int div : ",a / b)
+print("floor div: ",a // b)
+print('mod : ',a %b)
+
+
+
+
