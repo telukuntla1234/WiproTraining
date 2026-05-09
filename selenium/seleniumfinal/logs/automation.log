@@ -1,0 +1,66 @@
+2026-05-09 18:26:13,127 - INFO - ==================================================
+2026-05-09 18:26:13,127 - INFO - Starting test!!
+2026-05-09 18:26:13,128 - INFO - Reading 
+2026-05-09 18:26:15,358 - INFO - Opened browser: edge
+2026-05-09 18:26:16,119 - INFO - Url loaded: https://www.saucedemo.com/
+2026-05-09 18:26:16,122 - INFO - Login page opened
+2026-05-09 18:26:16,122 - INFO - Trying to login with data - standard_user, secret_sauce
+2026-05-09 18:26:16,123 - INFO - Trying to login with standard_user, secret_sauce
+2026-05-09 18:26:16,123 - INFO - Typing the element : ('id', 'user-name')
+2026-05-09 18:26:16,124 - INFO - Locating the element : ('id', 'user-name')
+2026-05-09 18:26:16,596 - INFO - Typing the element : ('id', 'password')
+2026-05-09 18:26:16,596 - INFO - Locating the element : ('id', 'password')
+2026-05-09 18:26:16,787 - INFO -  Clicking in the element : ('id', 'login-button')
+2026-05-09 18:26:16,787 - INFO - Locating the element : ('id', 'login-button')
+2026-05-09 18:26:17,105 - INFO - Checking logged in status
+2026-05-09 18:26:17,135 - INFO - Login Successful - Inventory page opened 
+2026-05-09 18:26:17,319 - INFO - Screenshot saved at: reports/screenshots/login_test_20260509_182617.png
+2026-05-09 18:26:20,219 - INFO - Closing browser: edge
+2026-05-09 18:26:20,220 - INFO - ENDING TEST
+2026-05-09 18:26:20,220 - INFO - ================================================
+2026-05-09 18:26:20,221 - INFO - ==================================================
+2026-05-09 18:26:20,221 - INFO - Starting test!!
+2026-05-09 18:26:20,221 - INFO - Reading 
+2026-05-09 18:26:22,009 - INFO - Opened browser: edge
+2026-05-09 18:26:22,768 - INFO - Url loaded: https://www.saucedemo.com/
+2026-05-09 18:26:22,769 - INFO - Login page opened
+2026-05-09 18:26:22,769 - INFO - Trying to login with data - locked_out_user, secret_sauce
+2026-05-09 18:26:22,769 - INFO - Trying to login with locked_out_user, secret_sauce
+2026-05-09 18:26:22,769 - INFO - Typing the element : ('id', 'user-name')
+2026-05-09 18:26:22,770 - INFO - Locating the element : ('id', 'user-name')
+2026-05-09 18:26:23,080 - INFO - Typing the element : ('id', 'password')
+2026-05-09 18:26:23,081 - INFO - Locating the element : ('id', 'password')
+2026-05-09 18:26:23,453 - INFO -  Clicking in the element : ('id', 'login-button')
+2026-05-09 18:26:23,454 - INFO - Locating the element : ('id', 'login-button')
+2026-05-09 18:26:23,676 - INFO - Checking logged in status
+2026-05-09 18:26:23,681 - INFO - Trying to display error message
+2026-05-09 18:26:23,681 - INFO - Getting the element : ('tag name', 'h3')
+2026-05-09 18:26:23,681 - INFO - Locating the element : ('tag name', 'h3')
+2026-05-09 18:26:23,730 - ERROR - Login failed -  Inventory page not opened
+2026-05-09 18:26:23,847 - INFO - Screenshot saved at: reports/screenshots/login_test_20260509_182623.png
+2026-05-09 18:26:25,672 - INFO - Closing browser: edge
+2026-05-09 18:26:25,673 - INFO - ENDING TEST
+2026-05-09 18:26:25,673 - INFO - ================================================
+2026-05-09 18:26:25,674 - INFO - ==================================================
+2026-05-09 18:26:25,674 - INFO - Starting test!!
+2026-05-09 18:26:25,674 - INFO - Reading 
+2026-05-09 18:26:27,977 - INFO - Opened browser: edge
+2026-05-09 18:26:28,719 - INFO - Url loaded: https://www.saucedemo.com/
+2026-05-09 18:26:28,720 - INFO - Login page opened
+2026-05-09 18:26:28,720 - INFO - Trying to login with data - wrong_user, wrong_pass
+2026-05-09 18:26:28,720 - INFO - Trying to login with wrong_user, wrong_pass
+2026-05-09 18:26:28,720 - INFO - Typing the element : ('id', 'user-name')
+2026-05-09 18:26:28,720 - INFO - Locating the element : ('id', 'user-name')
+2026-05-09 18:26:29,049 - INFO - Typing the element : ('id', 'password')
+2026-05-09 18:26:29,049 - INFO - Locating the element : ('id', 'password')
+2026-05-09 18:26:29,241 - INFO -  Clicking in the element : ('id', 'login-button')
+2026-05-09 18:26:29,242 - INFO - Locating the element : ('id', 'login-button')
+2026-05-09 18:26:29,406 - INFO - Checking logged in status
+2026-05-09 18:26:29,411 - INFO - Trying to display error message
+2026-05-09 18:26:29,411 - INFO - Getting the element : ('tag name', 'h3')
+2026-05-09 18:26:29,411 - INFO - Locating the element : ('tag name', 'h3')
+2026-05-09 18:26:29,482 - ERROR - Login failed -  Inventory page not opened
+2026-05-09 18:26:29,558 - INFO - Screenshot saved at: reports/screenshots/login_test_20260509_182629.png
+2026-05-09 18:26:33,238 - INFO - Closing browser: edge
+2026-05-09 18:26:33,238 - INFO - ENDING TEST
+2026-05-09 18:26:33,238 - INFO - ================================================
