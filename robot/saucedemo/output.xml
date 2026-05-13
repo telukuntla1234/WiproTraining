@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-05-12T19:21:50.255614" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\Wipro Training\robot\saucedemo\Tests">
+<suite id="s1-s1" name="Regression Tests" source="C:\Wipro Training\robot\saucedemo\Tests\regression_tests.robot">
+<kw name="Open Browser To Login Page" type="SETUP">
+<msg time="2026-05-12T19:21:50.587217" level="FAIL">No keyword with name 'Open Browser To Login Page' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</msg>
+<status status="FAIL" start="2026-05-12T19:21:50.587106" elapsed="0.000183">No keyword with name 'Open Browser To Login Page' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</kw>
+<test id="s1-s1-t1" name="Verify Product Price Total" line="11">
+<status status="FAIL" start="2026-05-12T19:21:50.588367" elapsed="0.000738">Parent suite setup failed:
+No keyword with name 'Open Browser To Login Page' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-05-12T19:21:50.632327" elapsed="0.000384"/>
+</kw>
+<status status="FAIL" start="2026-05-12T19:21:50.366209" elapsed="0.266690">Suite setup failed:
+No keyword with name 'Open Browser To Login Page' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</suite>
+<suite id="s1-s2" name="Smoke Tests" source="C:\Wipro Training\robot\saucedemo\Tests\smoke_tests.robot">
+<kw name="Open Browser To Login Page" type="SETUP">
+<msg time="2026-05-12T19:21:50.650241" level="FAIL">No keyword with name 'Open Browser To Login Page' found.</msg>
+<status status="FAIL" start="2026-05-12T19:21:50.650164" elapsed="0.000134">No keyword with name 'Open Browser To Login Page' found.</status>
+</kw>
+<test id="s1-s2-t1" name="Valid Login Test" line="8">
+<status status="FAIL" start="2026-05-12T19:21:50.651227" elapsed="0.000671">Parent suite setup failed:
+No keyword with name 'Open Browser To Login Page' found.</status>
+</test>
+<kw name="Close Browser" type="TEARDOWN">
+<msg time="2026-05-12T19:21:50.671252" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" start="2026-05-12T19:21:50.671124" elapsed="0.000208">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" start="2026-05-12T19:21:50.638065" elapsed="0.035106">Suite setup failed:
+No keyword with name 'Open Browser To Login Page' found.
+
+Also suite teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</suite>
+<status status="FAIL" start="2026-05-12T19:21:50.332570" elapsed="0.344412"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="0" fail="2" skip="0">Tests</stat>
+<stat name="Regression Tests" id="s1-s1" pass="0" fail="1" skip="0">Tests.Regression Tests</stat>
+<stat name="Smoke Tests" id="s1-s2" pass="0" fail="1" skip="0">Tests.Smoke Tests</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-05-12T19:21:50.584057" level="ERROR">Error in file 'C:\Wipro Training\robot\saucedemo\Tests\regression_tests.robot' on line 5: Resource file '..\Resources\login_page.resource' does not exist.</msg>
+<msg time="2026-05-12T19:21:50.645984" level="ERROR">Error in file 'C:\Wipro Training\robot\saucedemo\Tests\smoke_tests.robot' on line 2: Resource file '..\Resources\login_page.resource' does not exist.</msg>
+</errors>
+</robot>
